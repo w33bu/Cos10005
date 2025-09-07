@@ -1,0 +1,46 @@
+form {
+	width:40em;	
+}
+
+label {
+	float:left;						
+	text-align:right;					
+	width:10em;						
+	margin-right:1em;							
+}
+
+input {
+	width:50%;							
+}
+
+.textinput {
+	margin:10px;							
+}
+
+.radioinput fieldset {
+	border:none;							
+}
+.radioinput legend {
+	float:left;				
+	text-align: right;						
+	width:9em;							
+}
+.radioinput input  {
+	width:2em;						
+}
+.radioinput label  {
+	float: disable;				
+	text-align: left;			
+}
+
+.buttoninput {
+text-align:right;							
+}
+.buttoninput input {
+width:auto;							
+}
+input[type=text]:focus , input[type=password]:focus
+		{
+		background-color:yellow
+		}
+	
