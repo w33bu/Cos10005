@@ -1,0 +1,59 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Assignment 4"/>
+<meta name="keywords" content="HTML, CSS" />
+<meta name="suthor" content="Doan The Nam"/>
+<meta name="viewpoint" content="width=device-width, inutial-scale=1">
+	<!--Link to CSS-->
+<link href="css/style.css" rel="stylesheet" />
+	<!--Link to Javascript-->
+<script src="js/scriptRegister.js"></script>
+<title>Assignment </title>
+</head>
+
+<body>
+
+<nav>
+<ul>
+  	<li><a href="index.html">Home</a></li>
+  	<li><a href="register.html" class="active" >Register</a></li>
+	<li><a href="order.html">Order</a></li>
+	<li><a href="features.html">Features</a></li>
+</ul>
+</nav>
+	<!--Form name-->
+<div class="formhead"><h1>Registratration Form </h1></div>
+
+	<!--Form Body below -->
+<section class="formbody">
+  <form id="regform" method="post" action="http://mercury.swin.edu.au/it000000/cos10005/regtest.php">
+	 
+	<h2 class="info">Login</h2>
+    <label for="username">User Name</label>
+    <input type="text"  name="username" id="username" placeholder="Your username...">
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" placeholder="Your password...">
+
+	<h2 class="info">email</h2>
+	<label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="your email...">
+	  
+	<h2 class="info">Gender</h2>
+	<input type="radio" id="genm" name="rbGender" value="Male"/>Male
+	<input type="radio" id="genf" name="rbGender" value="Female"/>Female
+	
+	<h2 class="info">Favorite Taco</h2>
+	<input type="checkbox" name="cbCuban" value="cuban" />Cuban Taco
+	<input type="checkbox" name="cbHarvest" value="Harvest" />Harvest Taco
+	<input type="checkbox" name="cbMadrid" value="Madrid" />Madrid Taco
+  	<input type="checkbox" name="cbThai" value="Thai" />Thai Taco <br />
+    <input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+  </form>
+</section>
+	<!--Form Body above -->
+</body>
+</html>

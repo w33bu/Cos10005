@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+h1 h2 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* style the Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9B0406;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  font-size: 24px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 50px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #E90609;
+}
+/* End */
+
+/*Tell the customers which webpage they currently visit*/
+.active {
+	background-color: #000000;}
+/* End */
+
+body {
+	background-image: url("backgroundImage.jpg");
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed;  
+  	background-size: cover;
+}
+
+/*style store's history box*/
+#aboutTica {
+	position: relative;
+  	top: 100px;
+  	margin: auto;
+  	width: 80%;
+  	border: 1px solid #A09E9E;
+	border-radius: 15px;
+  	padding: 30px;
+	background-color: rgba(255,255,255,0.80);	
+	content: "";
+  	display: table;
+  	clear: both;
+}
+/*End*/
+
+/*style main content: Taco menu */
+main {
+	position: relative;
+	top: 190px;
+}
+
+#menu {
+	text-align: center;
+	position: relative;
+	text-decoration: underline;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 5px yellow;
+	color:antiquewhite;
+	font: 36px Helvetica, san-serif bold;
+}
+
+figure {
+	position: relative;
+	margin: 15px;
+	border: 4px solid #ccc;
+ 	float: left;
+	background-color: #E7E5E5;
+}
+
+figure:hover {
+  border: 4px solid black;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+ 	padding: 15px;
+ 	text-align: center;
+	font: 24px bold Verdana, Geneva, sans-serif;
+	color: #545151;
+}
+
+/*End */
+
+/* style Aside */
+aside {
+	float:right;
+	width: 50%;
+	padding-left: 15px;
+	margin-left: 15px;
+ 	font-style: italic;
+ 	background-color: lightgray;
+}
+aside:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*End */
+
+/*style Footer */
+footer {
+	background-color:#9B0406;
+	text-align:left;
+	color:aliceblue;
+	padding:10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	}
+/*End */
+
+/* Style form name */
+.formhead {
+	width: 800px;
+	background-color: rgba(199,192,192,0.6);
+	margin:100px 300px 10px 300px;
+	color: black;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+/*End */
+
+/*Style Form Body */
+section.formbody {
+	background-color: rgba(199,192,192,0.6);
+	width: 800px;
+	margin:0px 300px 10px 300px;
+}
+form {
+	padding: 20px;
+}
+
+.info {
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 250px;
+	color:black;
+	font-size: 20px;
+	font-weight:600;
+}
+/*End*/
+
+/*style reset and submit buttons*/
+input[type=submit], input[type=reset]{
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit] { 
+	background-color: #45a049;
+} 
+
+input[type=reset]:hover {
+  background-color: #45a049;
+}
+/*End*/
+
+
+
