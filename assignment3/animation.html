@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	
+<meta charset="utf-8">
+<meta name="description" content="Assignment 1"/>
+<meta name="keywords" content="HTML, CSS" />
+<meta name="suthor" content="Doan The Nam"/>
+<meta name="viewpoint" content="width=device-width, inutial-scale=1">
+	
+	<nav>
+	<p><a href="Aboutmyself.html">About myself</a>
+	<a href="Favorite.html">Favourite</a>
+	<a href="Timetable.html">Timetable</a>
+	<a href="animation.html">Animation</a></p>
+</nav>
+
+<title>Assignment</title>
+
+<style>
+
+	div {
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  from {background-color: red;}
+  to {background-color: green;}
+}
+
+	p {
+  width: 125px;
+  height: 125px;
+  background-color: blue;
+  position: relative;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 5;
+}
+
+@keyframes move {
+  0%   {background-color:blue; left:0px; top:0px;}
+  25%  {background-color:green; left:250px; top:0px;}
+  50%  {background-color:purple; left:250px; top:250px;}
+  75%  {background-color:black; left:0px; top:250px;}
+  100% {background-color:blue; left:0px; top:0px;}
+}
+</style>
+</head>
+
+<body>
+	
+	<div></div>
+	<p></p>
+</body>
+</html>
