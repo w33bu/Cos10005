@@ -1,0 +1,31 @@
+@media screen and (min-width: 1024px) {
+		body {
+		font-size: 100%;
+		color:red;
+		}
+		}
+@media screen and (max-width: 1023px) 
+{
+		h1 {
+		text-align: center;
+		}
+		h2 {
+		font-size: 40px;
+		margin-bottom: none;
+		}
+		input {
+		width: 100%;
+		}
+		p {
+		margin: none;
+		}
+		input[type=radio] {
+			width:25%;
+		}
+		button {
+			width: 40%;
+		}
+		div {
+			float: middle;
+		}
+}
